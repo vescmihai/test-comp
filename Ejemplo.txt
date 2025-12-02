@@ -1,0 +1,47 @@
+//Ejemplo de un programa, escrito en el lenguaje.
+//El lenguaje NO es case-sensitive.
+
+var 
+  x, y, n : Integer;
+  b       : BOOLEAN;
+  a, c : Char;   /* Solo se manejan vars globales y lo tipos Integer, Boolean y Char */
+  V : Array[1..10] Integer;
+
+void lectura(){
+  b = true;
+  do	
+    println("Introduzca N: ");	
+    Readln(N); 
+    b := (N >= 0);
+    if (!b)
+       println("El valor ", N, " es incorrecto");
+    else
+      return; 
+  until (false);
+}
+
+var 
+  f, i : Integer;
+
+void factorial(){
+  f := 1;
+  i := N; 
+  while i>0 do{
+    f = f * i;
+    i = i-1;	
+  }
+}
+
+void factorial2(){
+  f = 1;
+  while i<=n do{
+    f := f * i;
+    i := i+1;
+  }
+}
+
+Main(){	//main es una palabra reservada (keyword).
+  lectura();
+  factorial();
+  println("El factorial de ", N, " es ",f);
+}

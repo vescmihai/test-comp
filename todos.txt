@@ -1,0 +1,9 @@
+var array void if else to do while readln println until false true return main
+
+, ; [ ] ( ) { } * % mod + -
+
+/ div ! not and or .. : = :=
+
+123 AB1C2 "Hola Mundo" 
+= < > <= >= != <>
+char boolean integer 
